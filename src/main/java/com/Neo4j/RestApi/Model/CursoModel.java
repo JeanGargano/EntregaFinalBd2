@@ -21,6 +21,5 @@ public class CursoModel {
     private String nombre;
     private String categoria;
 
-    //@Relationship(type = "esSimilar")
-    //List<CursoModel> cursos;
+
 }

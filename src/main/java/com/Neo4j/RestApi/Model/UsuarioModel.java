@@ -28,6 +28,5 @@ public class UsuarioModel {
     @Relationship(type="toma")
     List<CursoModel> cursos;
 
-    @Relationship(type="calificaCurso")
-    List<CursoModel> calificaciones;
+
 }

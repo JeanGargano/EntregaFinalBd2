@@ -22,7 +22,4 @@ public class TutorModel {
     private String nombre;
     private String carrera;
 
-    @Relationship(type="dicta")
-    List<CursoModel> cursos;
-
 }

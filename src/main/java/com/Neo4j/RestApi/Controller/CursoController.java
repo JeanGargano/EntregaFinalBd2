@@ -43,5 +43,4 @@ public class CursoController {
         return ResponseEntity.ok(resultado);
     }
 
-
 }
