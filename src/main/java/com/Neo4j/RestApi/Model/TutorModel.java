@@ -17,7 +17,8 @@ public class TutorModel {
 
     @Id
     @GeneratedValue
-    private Long idTutor;
+    private Long id;
+    private Integer idTutor;
     private String nombre;
     private String carrera;
 

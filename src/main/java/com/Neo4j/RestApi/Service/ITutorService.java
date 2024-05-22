@@ -11,7 +11,7 @@ public interface ITutorService {
 
     List<TutorModel> listarTutores();
 
-    String actualizarTutoresPorId(TutorModel tutor, Long idTutor);
+    String actualizarTutoresPorId(TutorModel tutor, Long id);
 
-    String eliminarTutorPorId(Long idTutor);
+    String eliminarTutorPorId(Long id);
 }

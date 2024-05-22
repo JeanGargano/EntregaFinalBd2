@@ -16,10 +16,11 @@ public class CursoModel {
 
     @Id
     @GeneratedValue
-    private Long idCurso;
+    private Long id;
+    private Integer idCurso;
     private String nombre;
     private String categoria;
 
-    @Relationship(type = "esSimilar")
-    List<CursoModel> cursos;
+    //@Relationship(type = "esSimilar")
+    //List<CursoModel> cursos;
 }

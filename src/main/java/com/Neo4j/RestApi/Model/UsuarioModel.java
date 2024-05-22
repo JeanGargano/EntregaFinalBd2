@@ -19,7 +19,8 @@ public class UsuarioModel {
 
     @Id
     @GeneratedValue
-    private Long idUsuario;
+    private Long id;
+    private Integer idUsuario;
     private String nombre;
     private String carrera;
     private String semestre;

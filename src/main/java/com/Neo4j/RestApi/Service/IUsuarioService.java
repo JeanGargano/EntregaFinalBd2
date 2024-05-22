@@ -9,9 +9,9 @@ public interface IUsuarioService {
 
     String crearUsuario(UsuarioModel usuario);
 
-    List<CursoModel> listarCursos();
+    List<UsuarioModel> listarUsuarios();
 
-    String actualizarCursoPorId(UsuarioModel usuario, Long idUsuario);
+    String actualizarUsuarioPorId(UsuarioModel usuario, Long id);
 
-    String elimarUsuarioPorId(Long idUsuario);
+    String elimarUsuarioPorId(Long id);
 }

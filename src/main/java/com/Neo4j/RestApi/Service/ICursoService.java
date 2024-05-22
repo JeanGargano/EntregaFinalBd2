@@ -11,8 +11,8 @@ public interface ICursoService {
 
     List<CursoModel> listarCursos();
 
-    String actualizarCursoPorId(CursoModel curso, Long idCurso);
+    String actualizarCursoPorId(CursoModel curso, Long id);
 
-    String eliminarCursoPorId(Long idCurso);
+    String eliminarCursoPorId(Long id);
 
 }
